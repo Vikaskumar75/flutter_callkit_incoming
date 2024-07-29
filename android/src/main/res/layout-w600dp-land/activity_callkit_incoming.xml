@@ -14,6 +14,7 @@
         android:scaleType="centerCrop"
         tools:ignore="ContentDescription" />
 
+      
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,13 +23,14 @@
         android:orientation="vertical">
 
 
+<!-- 
         <com.hiennv.flutter_callkit_incoming.widgets.RippleRelativeLayout
             android:id="@+id/llBackgroundAnimation"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginTop="@dimen/base_margin_revert_x5"
             android:layout_weight="1"
-            android:fitsSystemWindows="false">
+            android:fitsSystemWindows="false"> -->
 
             <ImageView
                 android:id="@+id/ivLogo"
@@ -40,7 +42,7 @@
                 android:visibility="invisible"
                 android:scaleType="fitCenter"
                 android:layout_marginBottom="@dimen/base_margin_x5"
-                android:src="@drawable/ic_logo"
+                android:src="@drawable/ic_user_filled"
                 tools:ignore="ContentDescription" />
 
 
@@ -50,7 +52,7 @@
                 android:layout_height="@dimen/size_avatar"
                 android:visibility="invisible"
                 android:layout_centerInParent="true"
-                android:src="@drawable/ic_default_avatar"
+                android:src="@drawable/ic_user_filled"
                 app:civ_border_color="#80ffffff"
                 app:civ_border_width="1dp" />
 
@@ -97,7 +99,7 @@
 
             </LinearLayout>
 
-        </com.hiennv.flutter_callkit_incoming.widgets.RippleRelativeLayout>
+        <!-- </com.hiennv.flutter_callkit_incoming.widgets.RippleRelativeLayout> -->
 
 
         <LinearLayout
@@ -109,6 +111,7 @@
             android:fitsSystemWindows="true"
             android:gravity="center"
             android:orientation="horizontal">
+
 
             <LinearLayout
                 android:layout_width="wrap_content"
